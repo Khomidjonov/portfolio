@@ -143,9 +143,10 @@
 }
 
 @media(max-width:540px) {
-    .header__con  {
+    .header__con {
         margin-top: 80px;
     }
+
     h1 {
         font-size: 40px;
     }
@@ -171,6 +172,7 @@
         font-size: 30px;
 
     }
+
     .swiper-pagination {
         padding-top: 30px;
     }
@@ -242,6 +244,19 @@
     }
 }
 
+@media(max-width:514px) {
+    .wokr__item-content-title {
+        font-size: 30px;
+    }
+
+    .wokr__item-content-link {
+        width: 150px;
+        height: 45px;
+        font-size: 18px;
+    }
+
+}
+
 @media(max-width:493px) {
     .wsayt {
         width: 150px;
@@ -250,12 +265,15 @@
         left: -60px;
         font-size: 13px;
     }
+
     #typed-text {
         font-size: 40px;
     }
+
     header {
         height: 600px;
     }
+
     .skill__form {
         width: 100%;
         padding: 12px 25px;
@@ -289,14 +307,17 @@
         margin: 0 20px;
         width: 346px;
     }
+
     .modal__form-title {
         width: 100%;
         font-size: 18px;
         margin-top: 25px;
     }
+
     .modal__form-inner {
         width: 280px;
     }
+
     .modal__form-textarea {
         height: 107px;
     }
@@ -322,9 +343,19 @@
         width: 317px;
         height: 317px;
     }
+
+    .service__item-title {
+        font-size: 30px;
+    }
+
 }
 
 @media(max-width:396px) {
+
+    .wokr__item-content-title {
+        font-size: 20px;
+    }
+
     .wokr__item-content-text {
         width: 100%;
         font-size: 12px;
@@ -349,6 +380,7 @@
         height: 43px;
         font-size: 14px;
     }
+
     .modal__form-inner {
         width: 249px;
     }
